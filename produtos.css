@@ -16,7 +16,7 @@ nav {
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
     margin: 0 0 0 15px;
 }
 
@@ -76,5 +76,16 @@ nav a:hover {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 20px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
 }
 
